@@ -1,0 +1,31 @@
+/*body {
+	margin: 0;
+	font-family: 'Liberation Sans', Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}*/
+
+#posts {
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    list-style-type: none;
+}
+
+article h1 {
+    text-align: left;
+    border-bottom: 1px dotted #E3E3E3;
+}
+
+article p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+}

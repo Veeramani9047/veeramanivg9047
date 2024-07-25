@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Student Registration Form Using Table in HTML</title>
+<style>
+   
+h2{
+ font-family: Sans-serif; 
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: blue;
+ text-align: center; 
+ text-decoration: underline
+}
+table{
+ font-family: verdana; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);  
+ border-collapse: collapse; 
+ border: 4px solid #000000;
+ border-style: dashed;
+  
+}
+table.inner{
+ border: 10px
+}
+input[type=text], input[type=email], input[type=number]{
+ width: 50%;
+ padding: 6px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<h2>Student Registration Form Using Table in HTML</h3>
+<table align="center" cellpadding = "10">
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="login.php" method="POST">
+  <table>
+   <tr>
+    <td>review_title:</td>
+    <td><input type="text" name="review_title" required></td>
+   </tr>
+   <tr>
+    <td>review_descr :</td>
+    <td><input type="text" name="review_descr" required></td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.pseudo-anchor {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+.inner-block {
+    padding-left: 20px;
+}
+
+.input-style {
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+}
+
+.red-text {
+    color: #F00;
+}
+
+.color-F4A240 {
+    color: #F4A240;
+}
+
+.color-CA2126 {
+    color: #CA2126;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+.custom-table td {
+    border: none !important;
+    padding-left: 0 !important;
+}
+
+.custom-table {
+    border: none !important;
+}
+
+.list-sec {
+    list-style: circle;
+}
